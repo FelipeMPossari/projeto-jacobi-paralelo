@@ -1,0 +1,33 @@
+
+Relatório de Desempenho – Método de Jacobi
+
+Foram realizados testes de tempo de execução para a versão sequencial e para versões paralelas do método de Jacobi utilizando 2, 4 e 8 threads, com diferentes políticas de escalonamento (estática simples, estática com chunk de 25, dinâmica com chunk de 25 e guiada com chunk de 25).
+
+Tempo médio da execução sequencial:
+- Sequencial: 0.0773 s
+
+Resultados da versão paralela (Média de 3 execuções):
+
+Estático simples:
+- 2 threads: 0.0405 s
+- 4 threads: 0.0209 s
+- 8 threads: 0.0122 s
+
+Estático com chunk de 25:
+- 2 threads: 0.0415 s
+- 4 threads: 0.0207 s
+- 8 threads: 0.0122 s
+
+Dinâmico com chunk de 25:
+- 2 threads: 0.0430 s
+- 4 threads: 0.0211 s
+- 8 threads: 0.0123 s
+
+Guiado com chunk de 25:
+- 2 threads: 0.0403 s
+- 4 threads: 0.0206 s
+- 8 threads: 0.0124 s
+
+Comparando com a execução sequencial (0.0773 s), temos ganhos significativos em todas as configurações paralelas. 
+O melhor resultado foi alcançado com 8 threads (0.0122s), sendo aproximadamente 6,3x mais rápido que a versão sequencial.
+Como os tempos não divergiram significantemente nas diferentes estratégias de schedule, acabaram por não impactar os resultados do teste.
