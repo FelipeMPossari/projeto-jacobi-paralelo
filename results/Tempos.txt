@@ -1,13 +1,13 @@
-Sequencial: 0.077038 | 0.077728 | 0.077226 - Média: 0.077330
-Estático simples 2 threads: 0.040603 | 0.040414 | 0.040566 - Média: 0,040527
-Estático simples 4 threads: 0.020938 | 0.021243 | 0.020491 - Média: 0,020890
-Estático simples 8 threads: 0.011858 | 0.012267 | 0.012585 - Média: 0,012236
-Estático 2 threads chunk de 25: 0.040649 | 0.040163 | 0.043658 - Média: 0,04149
-Estático 4 threads chunk de 25: 0.02073 | 0.020466 | 0.020953 - Média: 0,020716
-Estático 8 threads chunk de 25: 0.012593 | 0.011885 | 0.012121 - Média: 0,012199
-Dinâmico 2 threads chunk de 25: 0.040686 | 0.044846 | 0.043530 - Média: 0.043021
-Dinâmico 4 threads chunk de 25: 0.020637 | 0.021156 | 0.021517 - Média: 0.021104
-Dinâmico 8 threads chunk de 25: 0.012083 | 0.012112 | 0.012839 - Média: 0.01234
-Guiado 2 threads chunk de 25: 0.040592 | 0.040144 | 0.040048 - Média: 0.040261
-Guiado 4 threads chunk de 25: 0.020521 | 0.020841 | 0.020430 - Média: 0.020597
-Guiado 8 threads chunk de 25: 0.012139 | 0.012051 | 0.012993 - Média: 0.012394
+Sequencial: 0.060908 | 0.059875 | 0.059791 - Média: 0.060191
+Estático simples 2 threads: 0.033910 | 0.032442 | 0.031459 - Média: 0,032604
+Estático simples 4 threads: 0.020084 | 0.016618 | 0.018150 - Média: 0,018354
+Estático simples 8 threads: 0.011641 | 0.011008 | 0.011644 - Média: 0,011431
+Estático 2 threads chunk de 25: 0.031986 | 0.031418 | 0.031746 - Média: 0,031717
+Estático 4 threads chunk de 25: 0.018402 | 0.016136 | 0.016412 - Média: 0,016983
+Estático 8 threads chunk de 25: 0.011913 | 0.010961 | 0.011896 - Média: 0,011590
+Dinâmico 2 threads chunk de 25: 0.031947 | 0.033268 | 0.033504 - Média: 0.032806
+Dinâmico 4 threads chunk de 25: 0.020342 | 0.016612 | 0.018082 - Média: 0.018346
+Dinâmico 8 threads chunk de 25: 0.011389 | 0.011717 | 0.012099 - Média: 0.011735
+Guiado 2 threads chunk de 25: 0.032040 | 0.032189 | 0.033807 - Média: 0.032679
+Guiado 4 threads chunk de 25: 0.019388 | 0.018424 | 0.017740 - Média: 0.018517
+Guiado 8 threads chunk de 25: 0.011755 | 0.011023 | 0.011721 - Média: 0.011500
